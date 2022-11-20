@@ -17,13 +17,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.backgroundColor = .gray
         
-    configeUI()
+        configeUI()
         
         
     }
     
-   func configeUI(){
+    func configeUI(){
         
         imageView.image = #imageLiteral(resourceName: "black1")
     }
