@@ -8,7 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    var no = 0
     
     @IBOutlet weak var firstIjmageView: UIImageView!
     
