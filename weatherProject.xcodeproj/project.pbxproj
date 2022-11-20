@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		457BF4642929DFF9009F08ED /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457BF4632929DFF9009F08ED /* FirstViewController.swift */; };
 		463ADD8528E6DD06009024DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463ADD8428E6DD06009024DE /* AppDelegate.swift */; };
 		463ADD8728E6DD06009024DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463ADD8628E6DD06009024DE /* SceneDelegate.swift */; };
 		463ADD8928E6DD06009024DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463ADD8828E6DD06009024DE /* ViewController.swift */; };
@@ -16,7 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		463ADD8128E6DD06009024DE /* DiceGame2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceGame2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		457BF4632929DFF9009F08ED /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		463ADD8128E6DD06009024DE /* weatherProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weatherProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		463ADD8428E6DD06009024DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		463ADD8628E6DD06009024DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		463ADD8828E6DD06009024DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +42,7 @@
 		463ADD7828E6DD06009024DE = {
 			isa = PBXGroup;
 			children = (
-				463ADD8328E6DD06009024DE /* DiceGame2 */,
+				463ADD8328E6DD06009024DE /* weatherProject */,
 				463ADD8228E6DD06009024DE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +50,32 @@
 		463ADD8228E6DD06009024DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				463ADD8128E6DD06009024DE /* DiceGame2.app */,
+				463ADD8128E6DD06009024DE /* weatherProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		463ADD8328E6DD06009024DE /* DiceGame2 */ = {
+		463ADD8328E6DD06009024DE /* weatherProject */ = {
 			isa = PBXGroup;
 			children = (
 				463ADD8428E6DD06009024DE /* AppDelegate.swift */,
 				463ADD8628E6DD06009024DE /* SceneDelegate.swift */,
 				463ADD8828E6DD06009024DE /* ViewController.swift */,
+				457BF4632929DFF9009F08ED /* FirstViewController.swift */,
 				463ADD8A28E6DD06009024DE /* Main.storyboard */,
 				463ADD8D28E6DD08009024DE /* Assets.xcassets */,
 				463ADD8F28E6DD08009024DE /* LaunchScreen.storyboard */,
 				463ADD9228E6DD08009024DE /* Info.plist */,
 			);
-			path = DiceGame2;
+			path = weatherProject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		463ADD8028E6DD06009024DE /* DiceGame2 */ = {
+		463ADD8028E6DD06009024DE /* weatherProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 463ADD9528E6DD08009024DE /* Build configuration list for PBXNativeTarget "DiceGame2" */;
+			buildConfigurationList = 463ADD9528E6DD08009024DE /* Build configuration list for PBXNativeTarget "weatherProject" */;
 			buildPhases = (
 				463ADD7D28E6DD06009024DE /* Sources */,
 				463ADD7E28E6DD06009024DE /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = DiceGame2;
+			name = weatherProject;
 			productName = DiceGame2;
-			productReference = 463ADD8128E6DD06009024DE /* DiceGame2.app */;
+			productReference = 463ADD8128E6DD06009024DE /* weatherProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 463ADD7C28E6DD06009024DE /* Build configuration list for PBXProject "DiceGame2" */;
+			buildConfigurationList = 463ADD7C28E6DD06009024DE /* Build configuration list for PBXProject "weatherProject" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				463ADD8028E6DD06009024DE /* DiceGame2 */,
+				463ADD8028E6DD06009024DE /* weatherProject */,
 			);
 		};
 /* End PBXProject section */
@@ -141,6 +144,7 @@
 				463ADD8928E6DD06009024DE /* ViewController.swift in Sources */,
 				463ADD8528E6DD06009024DE /* AppDelegate.swift in Sources */,
 				463ADD8728E6DD06009024DE /* SceneDelegate.swift in Sources */,
+				457BF4642929DFF9009F08ED /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +292,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DiceGame2/Info.plist;
+				INFOPLIST_FILE = weatherProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -316,7 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DiceGame2/Info.plist;
+				INFOPLIST_FILE = weatherProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -339,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		463ADD7C28E6DD06009024DE /* Build configuration list for PBXProject "DiceGame2" */ = {
+		463ADD7C28E6DD06009024DE /* Build configuration list for PBXProject "weatherProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				463ADD9328E6DD08009024DE /* Debug */,
@@ -348,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		463ADD9528E6DD08009024DE /* Build configuration list for PBXNativeTarget "DiceGame2" */ = {
+		463ADD9528E6DD08009024DE /* Build configuration list for PBXNativeTarget "weatherProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				463ADD9628E6DD08009024DE /* Debug */,
